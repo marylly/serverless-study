@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "name": "Lambda",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/serverless",
+      "args": [
+          "offline",
+          "start"
+      ]
+    }
+  ]
+}
